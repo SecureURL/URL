@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>URL Opener</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">
+            <p>URL Opener</p>
+        </a>
+    </header>
+
+    <section class="container">
+        <h1>Redirecting</h1>
+        <!-- <div class="redirectBtn">
+            <button>Unlock the Link by clicking on atleast 5 links below</button>
+        </div>
+        <div class="personal-links">
+            <h3>Trending Right Now :</h3>
+            <span class="PerLnks"></span>
+            <h3>Ads :</h3>
+            <div class="ads"></div>
+    
+            <span class="PerIcoLnks">
+                <a href="">
+                    <img src="https://www.healthifyme.com/blog/wp-content/uploads/2022/12/how-many-grams-of-fat-per-day-to-lose-weight.jpg"
+                        alt="">
+                    <p>Best Way to loose Weight</p>
+                </a>
+            </span>
+    
+        </div>
+    
+        <div class="ads"></div> -->
+    
+        <div class="timer" id="timer">
+            <p>Redirecting to <span id="title">Page Name</span> in<br /><span id="time">10</span><br />Seconds.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p></p>
+    </footer>
+    <script src="script.js"></script>
+    <script>
+        setInterval(() => {
+            document.querySelector("footer p").innerHTML = Date();
+        }, 1000);
+    </script>
+</body>
+</html>
