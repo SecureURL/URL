@@ -22,7 +22,6 @@ if (paramValue != "" || paramValue != null)
         if (data.Data[1].length > 1)
         {
             window.location.href = data.Data[1];
-            window.close('','_parent','');
         }
         else
         {
